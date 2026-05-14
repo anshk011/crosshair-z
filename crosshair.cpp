@@ -117,7 +117,7 @@ static float g_delay_ms     = 100.0f;
 // ---------------------------------------------------------------------------
 // Helpers
 // ---------------------------------------------------------------------------
-static inline float lerp(float a, float b, float t) {
+static inline float ch_lerp(float a, float b, float t) {
     return a + (b - a) * t;
 }
 
@@ -238,7 +238,7 @@ static void Tick()
     if (g_animProgress > 1.0f) g_animProgress = 1.0f;
 
     // Linear lerp: 2px → 136px over 1.6s
-    g_topOffset   = lerp(ANIM_START, ANIM_END, g_animProgress);
+    g_topOffset   = ch_lerp(ANIM_START, ANIM_END, g_animProgress);
     g_firingColor = true;
 }
 
