@@ -6,7 +6,7 @@ Zero injection. Zero game memory access. Fully undetectable by anti-cheat.
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-blue)
 ![Language](https://img.shields.io/badge/language-C%2B%2B-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Build](https://github.com/YOUR_USERNAME/RecoilCrosshair/actions/workflows/build.yml/badge.svg)
+![Build](https://github.com/anshk011/crosshair-z/actions/workflows/build.yml/badge.svg)
 
 ---
 
@@ -107,8 +107,8 @@ g++ --version
 **2. Clone the repo**
 
 ```cmd
-git clone https://github.com/YOUR_USERNAME/RecoilCrosshair.git
-cd RecoilCrosshair
+git clone https://github.com/anshk011/crosshair-z.git
+cd crosshair-z
 ```
 
 **3. Build**
@@ -140,7 +140,7 @@ cl /O2 /EHsc crosshair.cpp /link gdi32.lib winmm.lib shell32.lib user32.lib /SUB
 
 ### Option C — Download Pre-built .exe
 
-Go to [Releases](https://github.com/YOUR_USERNAME/RecoilCrosshair/releases) and
+Go to [Releases](https://github.com/anshk011/crosshair-z/releases) and
 download the latest `RecoilCrosshair.exe`. No install required — just run it.
 
 ---
