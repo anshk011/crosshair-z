@@ -1,0 +1,23 @@
+# Compiled output
+*.exe
+*.obj
+*.o
+
+# MSVC artifacts
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# VS / VSCode
+.vs/
+.vscode/
+*.user
+*.suo
+
+# MinGW / MSYS2
+*.a
+
+# OS
+Thumbs.db
+desktop.ini
